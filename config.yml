@@ -1,0 +1,9 @@
+LOGCONF:
+  level: info
+  format: json
+  prefix: sunzheng #日志条目前缀
+  director: logs
+  link-name: current.logrotao
+  show-line: true #显示行数
+  save-day: 7 # 默认保留7天的日志
+  rotate-time: 1440 #日志循环时间，单位为分钟
